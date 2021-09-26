@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./img/icon-2-03-70x70-1.png" type="image/gif" sizes="16x16">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- style linking  -->
+  <link rel="stylesheet" href="ecom.css">
+  <title>Product</title>
+
+
+</head>
+
+<body>
+
+
+  <div class="container-fluid top_heading py-3">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-9">
+          <div class="special_gift">
+            <span id="gift_generator_btn">Click here</span> to get registerd for special gift
+          </div>
+          <!-- gift form  -->
+          <div class="gift_form_wrapper">
+            <div class="gift_form_container">
+              <div class="gift_form">
+                <div class="cross_gift">
+                  <i class="fas fa-times-circle"></i>
+                </div>
+                <h4>Grab your gift</h4>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <div class="submit">
+                  <a id="action_after_submit" href="#">Submit</a>
+                  <!-- submit result  -->
+                  <div class="sumbit_result_wrapper">
+                    <div class="summit_res">
+                      <div class="cross_result">
+                        <i class="fas fa-times-circle"></i>
+                      </div>
+
+                      <p>Thanks for your registraton. Please check your email for the gift link. Thanks</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col-3 d-flex justify-content-end ">
+          <div class="special_cross">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid bg-dark p-5 header_part">
+    <div class="container ">
+
+
+
+      <div class="row d-flex align-items-center justify-content-between ">
+        <!-- logo  -->
+        <div class="col-2 logo_section">
+
+          <a id="logo" href="http://127.0.0.1:5500/index.html">
+            <img src="./img/icon-2-03-70x70-1.png" alt="">
+          </a>
+
+        </div>
+        <!-- nav menu  -->
+<div class="col-md-2 col-3 hide_thi_btn">
+  <a href="#" class="hiddenSign_in second_sign_in_for_pro_page">
+    <button class="sign_btn">Sign in</button>
+  </a>
+
+
+  
+  
+</div>
+        <div class="col-10 nav_menu_wrapper">
+          <div class="navMenu_cotainer d-flex  ">
+
+            <div class="d-flex  justify-content-between align-items-center  nav_menu">
+              <li><a href="http://127.0.0.1:5500/index.html" target="_blank" >Home</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">Trending</a></li>
+              <li><a href="">Organic</a></li>
+              <li><a href="">Best Seller</a></li>
+            </div>
+
+            <div class="sign_in_and_cart_button  d-flex justify-content-between align-items-center ms-auto">
+              <div class="sign_in">
+                <button class="sign_btn">Sign in</button>
+                <div class="bg_black_layer">
+
+                </div>
+
+              </div>
+
+              <div class="Cart cart_pro_page cart_dec_relative">
+                <i class="fas fa-cart-plus"></i>
+                <div class="pro_added">
+                  <p>5</p>
+                </div>
+
+                <div class="cart_pro_descrip">
+                    <div class="cart_content">
+                        <div class="cart_img_name d-flex justify-content-between align-items-center">
+                            <img src="./img/Hand-Made-Puffed-Rice-From-Barishal_460ae53a99bb70bb00d22465e4ab3fa2.jpg" alt="" width="60rem" >
+                         
+                            <div class="pro_name_quantity_price d-flex flex-column">
+                                   <p>Puffed Rice</p>
+                                   <h4>5 x $13</h4>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="subtotal  d-flex justify-content-between align-items-center">
+                            <h3>Subtotal</h3>
+                            <h3>$65</h3>
+                        </div>
+
+                        <div class="view_cart">
+                            <a href="http://127.0.0.1:5500/cartPage.html" target="_blank" >View Cart</a>
+                        </div>
+                        <div class="Chekc_Out">
+                          <a href="http://127.0.0.1:5500/checkout.html" target="_blank" >Checkout</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!-- background layer  -->
+              <div id="layer_div_for_input_box">
+              </div>
+              <!-- search icon  -->
+              <div class="search_product">
+                <i class="fas fa-search"></i>
+              </div>
+              <!-- input box  -->
+              <div class="input_box_for_searchingProduct">
+                <input type="text" placeholder="Search for your product">
+                <!-- cross button  -->
+                <div class="crossButton">
+                  <i class="fas fa-times  "></i>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+          </div>
+
+          <!-- hamburger menu  -->
+          <div class="hamburger_menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+
+        <!-- sign in and cart button  -->
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- home section  -->
+
+
+
+  <div class="form_of_product_page">
+
+
+
+<div id="form_for_sign_and_reg" class="form_absoulate" >
+
+<div class="form_container d-flex flex-column">
+      <div class="cross_form">
+        <i class="fas fa-times-circle"></i>
+      </div>
+      <div class="form_labels d-flex justify-content-between  ">
+        <div class="login">
+          <span>Login</span>
+        </div>
+
+        <div class="register">
+          <span>Register</span>
+        </div>
+      </div>
+      <div class="log_and_reg_form d-flex justify-content-center">
+        <div class="login_form">
+          <input type="text" placeholder="name">
+          <input type="text" placeholder="password">
+          <div class="remember_box">
+            <input type="checkbox">
+            <p class="ms-4">Remember me</p>
+          </div>
+          <a href="">Sign In</a>
+        </div>
+
+        <div class="reg_form">
+          <input type="text" placeholder="name">
+          <input type="password" placeholder="password">
+          <input type="password" placeholder="re-enter password">
+
+          <a href="">Regsiter</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+   
+
+
+
+
+  </div>
+    
+
+
+<div class="product_cart_page">
+    <div class="container">
+        <div class="row d-flex ">
+            <div class="col-lg-6 pro_lg_img ">
+                <img src="./img/Hand-Made-Puffed-Rice-From-Barishal_460ae53a99bb70bb00d22465e4ab3fa2.jpg" alt="">
+            </div>
+
+            <div class="col-lg-6 d-flex flex-column  pro_infos">
+                <div class="product_name">
+                    <h3>Puffed Rice</h3>
+                </div>
+                <div class="pro_price">
+                    <h3>$13</h3>
+                </div>
+
+                <div class="pro_quantity">
+                    <p>Quantity: 600 gram</p>
+                </div>
+
+                <div class="add_to_cart_parent d-flex ">
+
+                    <div class="cart_quantity d-flex justify-content-between align-items-center">
+                        <div class="minus">
+                            <i class="fas fa-minus"></i>
+                        </div>
+                        <div class="qualtity_value">
+                          <input type="text"  value="0">
+                        </div>
+                        <div class="plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+     <div class="add_cart_btn ps-3">
+                        <p>Add to cart</p>
+                    </div>
+               
+                </div>
+
+                <hr class="hozr_line" >
+
+                <div class="sku">
+                    <p>  <span>
+                        SKU: 
+                    </span> puffed-rice-only-600gm</p>
+                 
+                </div>
+
+                <div class="catagory_sku">
+                    <p>   <span>
+                        Categories:
+                    </span>    Grocery, Dairy</p>
+              
+                </div>
+
+                <div class="share_it">
+                    <span>Share:</span>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container-fluid">
+    <hr>
+</div>
+
+
+
+
+<div class="container slider_product">
+    <div class="text-center releted_pro">
+      <h2 class="font-bold">Related Product</h2>
+    </div>
+    <div class="swiper relatedSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="porduct_box swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/Red-Brown-Sugar.jpg" alt="">
+            <h3>Red Suger</h3>
+            <p>$14</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/cfd790de-b693-4440-84dd-1c72b704c367-1.jpg" alt="">
+            <h3>Suzi</h3>
+            <p>$25</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/Organic-Icha-Loila-Dry-Fish.jpg" alt="">
+            <h3>Dry Fish</h3>
+            <p>$24</p>
+            <a href="">Add to cart</a>
+          </div>
+
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/products-pomegrenate-20local-500x500-1-300x300.jpg" alt="">
+            <h3>Pomegranate</h3>
+            <p>$30</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/WhatsApp-Image-2021-04-23-at-4.28.39-PM-300x300.jpeg" alt="">
+            <h3>Watermelon
+            </h3>
+            <p>$10</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/anaros-300x300.jpg" alt="">
+            <h3>Pineapple</h3>
+            <p>$15</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/yeast-300x300.jpg" alt="">
+            <h3>Yeast</h3>
+            <p>$23</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/Amon-Rice-300x300.png" alt="">
+            <h3>Amon Rice</h3>
+            <p>$31</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/Untitled-1-300x300 (1).png" alt="">
+            <h3>Raisins</h3>
+            <p>$45</p>
+            <a href="">Add to cart</a>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      <!-- <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+      <div class="pagination_related"></div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<div class="footer">
+  <div class="container">
+
+    <div class="row d-flex justify-content-between align-items-start text-center">
+
+ <div class="col-lg-3">
+      <div class="logo_and_social d-flex flex-column justify-content-between">
+        <a href="">
+          <img src="./img/icon-2-03-70x70-1.png" alt="">
+        </a>
+        <p>FoodLeafe is an e-commerce platform coupled with a chain of brick-and-mortar stores for safe and pure foods Worldwide.</p>
+        <div class="socialMedia">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram-square"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+        </div> 
+
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="contact d-flex flex-column justify-content-between">
+        <h3>Contact Us</h3>
+        <div class="office d-flex flex-column align-items-center">
+         <div class="head_office d-flex align-items-center">    
+            <i class="fas fa-location-arrow"></i>
+           <h4 >Head Office:</h4>
+     
+         </div>
+         <div>
+               <p>London, ForPlay Building 23/98e.</p>
+         </div>
+      
+        </div>
+        <div class="phone d-flex align-items-center justify-content-center">
+          <div class="phn_icon  d-flex align-items-center">
+            <i class="fas fa-phone-alt"></i>
+            <h4>Phone No: </h4>
+          </div>
+          <p>09092049023</p>
+        </div>
+        <div class="email  d-flex align-items-center justify-content-center">
+         <div class="email_icon d-flex align-items-center">
+          <i class="fas fa-envelope"></i>
+           <h4>Email:</h4>
+         </div>
+         <p>
+               mail@foodleafe.com
+         </p>
+      
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="col-lg-3">
+      <div class="newsletter">
+        <h3>Newsletter</h3>
+        <p>Enter your email below and get informed of our offers,new products time to time!</p>
+        <div class="newlet_inp d-flex flex-column">
+          <input type="email" name="" id="" placeholder="Email" >
+          <a href="">Send</a>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+   
+  </div>
+</div>
+
+
+
+<div class="lowerFooter">
+  <div class="container">
+    <div class="row d-flex justify-content-between align-items-center">
+       <div class="col-lg-6 all_right ">
+      <p>All Right Reserved. &#169; 2021</p>
+    </div>
+
+    <div class="col-lg-6 lower_footer_logo ">
+
+      <a id="name_icon" class="d-flex align-items-center justify-content-end  " href="">
+        <img src="./img/icon-2-03-70x70-1.png" alt="">
+        <h3>Foodleafe</h3>
+        
+      </a>
+    </div>
+    </div>
+   
+  </div>
+</div>
+
+
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="proPage.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+
+
+</body>
+
+</html>

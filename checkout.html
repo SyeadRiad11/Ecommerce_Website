@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./img/icon-2-03-70x70-1.png" type="image/gif" sizes="16x16">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- style linking  -->
+  <link rel="stylesheet" href="ecom.css">
+  <title>Checkout</title>
+
+
+</head>
+
+<body>
+
+
+  <div class="container-fluid top_heading py-3">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-9">
+          <div class="special_gift">
+            <span id="gift_generator_btn">Click here</span> to get registerd for special gift
+          </div>
+          <!-- gift form  -->
+          <div class="gift_form_wrapper">
+            <div class="gift_form_container">
+              <div class="gift_form">
+                <div class="cross_gift">
+                  <i class="fas fa-times-circle"></i>
+                </div>
+                <h4>Grab your gift</h4>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <div class="submit">
+                  <a id="action_after_submit" href="#">Submit</a>
+                  <!-- submit result  -->
+                  <div class="sumbit_result_wrapper">
+                    <div class="summit_res">
+                      <div class="cross_result">
+                        <i class="fas fa-times-circle"></i>
+                      </div>
+
+                      <p>Thanks for your registraton. Please check your email for the gift link. Thanks</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col-3 d-flex justify-content-end ">
+          <div class="special_cross">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid bg-dark p-5 header_part">
+    <div class="container ">
+
+
+
+      <div class="row d-flex align-items-center justify-content-between ">
+        <!-- logo  -->
+        <div class="col-2 logo_section">
+
+          <a id="logo" href="http://127.0.0.1:5500/index.html">
+            <img src="./img/icon-2-03-70x70-1.png" alt="">
+          </a>
+
+        </div>
+        <!-- nav menu  -->
+<div class="col-md-2 col-3 hide_thi_btn">
+  <a href="#" class="hiddenSign_in second_sign_in_for_pro_page">
+    <button class="sign_btn">Sign in</button>
+  </a>
+
+
+  
+  
+</div>
+        <div class="col-10 nav_menu_wrapper">
+          <div class="navMenu_cotainer d-flex  ">
+
+            <div class="d-flex  justify-content-between align-items-center  nav_menu">
+              <li><a  href="http://127.0.0.1:5500/index.html" target="_blank" >Home</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">Trending</a></li>
+              <li><a href="">Organic</a></li>
+              <li><a href="">Best Seller</a></li>
+            </div>
+
+            <div class="sign_in_and_cart_button  d-flex justify-content-between align-items-center ms-auto">
+              <div class="sign_in">
+                <button class="sign_btn">Sign in</button>
+                <div class="bg_black_layer">
+
+                </div>
+
+              </div>
+
+              <div class="Cart cart_pro_page cart_dec_relative">
+                <i class="fas fa-cart-plus"></i>
+                <div class="pro_added product_num">
+                  <p>5</p>
+                </div>
+
+                <div class="cart_pro_descrip">
+                    <div class="cart_content">
+                        <div class="cart_img_name d-flex justify-content-between align-items-center">
+                            <img src="./img/Hand-Made-Puffed-Rice-From-Barishal_460ae53a99bb70bb00d22465e4ab3fa2.jpg" alt="" width="60rem" >
+                         
+                            <div class="pro_name_quantity_price d-flex flex-column">
+                                   <p>Puffed Rice</p>
+                                   <h4>5 x $13</h4>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="subtotal  d-flex justify-content-between align-items-center">
+                            <h3>Subtotal</h3>
+                            <h3>$65</h3>
+                        </div>
+
+                        <div class="view_cart">
+                            <a href="http://127.0.0.1:5500/cartPage.html" target="_blank" >View Cart</a>
+                        </div>
+                        <div class="Chekc_Out">
+                            <a href="http://127.0.0.1:5500/checkout.html" target="_blank" >Checkout</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!-- background layer  -->
+              <div id="layer_div_for_input_box">
+              </div>
+              <!-- search icon  -->
+              <div class="search_product">
+                <i class="fas fa-search"></i>
+              </div>
+              <!-- input box  -->
+              <div class="input_box_for_searchingProduct">
+                <input type="text" placeholder="Search for your product">
+                <!-- cross button  -->
+                <div class="crossButton">
+                  <i class="fas fa-times  "></i>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+          </div>
+
+          <!-- hamburger menu  -->
+          <div class="hamburger_menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+
+        <!-- sign in and cart button  -->
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- home section  -->
+
+
+
+  <div class="form_of_product_page">
+
+
+
+<div id="form_for_sign_and_reg" class="form_absoulate" >
+
+<div class="form_container d-flex flex-column">
+      <div class="cross_form">
+        <i class="fas fa-times-circle"></i>
+      </div>
+      <div class="form_labels d-flex justify-content-between  ">
+        <div class="login">
+          <span>Login</span>
+        </div>
+
+        <div class="register">
+          <span>Register</span>
+        </div>
+      </div>
+      <div class="log_and_reg_form d-flex justify-content-center">
+        <div class="login_form">
+          <input type="text" placeholder="name">
+          <input type="text" placeholder="password">
+          <div class="remember_box">
+            <input type="checkbox">
+            <p class="ms-4">Remember me</p>
+          </div>
+          <a href="">Sign In</a>
+        </div>
+
+        <div class="reg_form">
+          <input type="text" placeholder="name">
+          <input type="password" placeholder="password">
+          <input type="password" placeholder="re-enter password">
+
+          <a href="">Regsiter</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+   
+  </div>
+    
+<div class="container-fluid  checkout_page_data">
+    <div class="container">
+        <div class="row">
+<div class="col-lg-6">
+    <div class="billling_head">
+        <h2>Billing Details</h2>
+    </div>
+
+    <div class="billing_form">
+        <label for="">Name  <span>*</span> </label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name">
+
+        <label for="">Country  <span>*</span> </label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Select Your Country</option>
+            <option value="1">USA</option>
+            <option value="2">Australia</option>
+            <option value="3">Bangladesh</option>
+          </select>
+
+
+          <label for="">Zip Code <span>*</span>  </label>
+          <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Zip Code" >
+
+          <label for="">Street address <span>*</span> </label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="House and street number">
+
+
+          <label for="">Billing Mobile Number <span>*</span>  </label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="House and street number">
+
+
+          
+          <label for="">Billing Email (optional)</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="House and street number">
+
+
+          <label for="">Product delivery date <span>*</span> </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="House and street number">
+
+          <hr  class="checkOut_line" >
+
+<div class="differ_adress_for_other">
+
+<div class="gift_differnt_address d-flex align-items-center">
+<input type="checkbox">
+<h2>GIFT/DIFFERENT ADDRESS</h2>
+</div>
+
+<div class="other_data">
+    <label for="">Name  <span>*</span> </label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name" >
+
+
+    <label for="">Country  <span>*</span> </label>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Select Your Country</option>
+        <option value="1">USA</option>
+        <option value="2">Australia</option>
+        <option value="3">Bangladesh</option>
+      </select>
+
+
+      <label for="">Street address <span>*</span> </label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="House and street number">
+
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apartment, Suite, Unite etc.">
+
+      <label for="">Phone Number <span>*</span>  </label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+
+      <textarea name="" id="" cols="70" rows="5" placeholder="Special Message(Optional)" ></textarea>
+
+</div>
+
+</div>
+
+
+<div class="back_to_cart">
+    <a href="http://127.0.0.1:5500/cartPage.html">Back to Cart</a>
+</div>
+  
+    </div>
+</div>
+<div class="col-lg-6 pay_section_full">
+  <div class="checkOut_pay d-flex flex-column align-content-center justify-content-center">
+    <div class="order text-center">
+      <h2>Your Order</h2>
+    </div>
+
+    <div class="pay_section ">
+      <div class="product_and_sub  d-flex justify-content-between align-items-center">
+        <h3>Product</h3>
+        <h3>Subtotal</h3>
+      </div>
+
+      <div class="product_name_price  d-flex justify-content-between align-items-center">
+        <p>Puffed Rice</p>
+        <p>$65</p>
+      </div>
+
+      <div class="subTotal_price d-flex justify-content-between align-items-center">
+        <p>Subtotal</p>
+        <p>$65</p>
+      </div>
+
+      <div class="total_final_price d-flex justify-content-between align-items-center"> 
+        <h4>Total</h4>
+        <h4>$65</h4>
+      </div>
+    </div>
+<div class="pay_online d-flex justify-content-between align-items-center">
+  <h5>Pay Online</h5>
+  <a href="">
+    <img src="./img/paypal-logo-png-transparent.png" alt="">
+  </a>
+  <a href="">
+    <img src="./img/visa-logo-png-5.png" alt="">
+  </a>
+  <a href="">
+    <img src="./img/1200px-MasterCard_Logo.svg.png" alt="">
+  </a>
+</div>
+
+<div class="pay_safe">
+  <p>Pay securely by Credit/Debit card, Internet banking or Mobile banking through SSLCommerz.</p>
+</div>
+<hr  class="pay_line">
+
+<div class="privecy">
+  <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <span>
+     privacy policy.</span></p>
+</div>
+
+<div class="final_placeorder_btn">
+<a href="">Place Order</a>
+</div>
+
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="footer">
+  <div class="container">
+
+    <div class="row d-flex justify-content-between align-items-start text-center">
+
+ <div class="col-lg-3">
+      <div class="logo_and_social d-flex flex-column justify-content-between">
+        <a href="">
+          <img src="./img/icon-2-03-70x70-1.png" alt="">
+        </a>
+        <p>FoodLeafe is an e-commerce platform coupled with a chain of brick-and-mortar stores for safe and pure foods Worldwide.</p>
+        <div class="socialMedia">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram-square"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+        </div> 
+
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="contact d-flex flex-column justify-content-between">
+        <h3>Contact Us</h3>
+        <div class="office d-flex flex-column align-items-center">
+         <div class="head_office d-flex align-items-center">    
+            <i class="fas fa-location-arrow"></i>
+           <h4 >Head Office:</h4>
+     
+         </div>
+         <div>
+               <p>London, ForPlay Building 23/98e.</p>
+         </div>
+      
+        </div>
+        <div class="phone d-flex align-items-center justify-content-center">
+          <div class="phn_icon  d-flex align-items-center">
+            <i class="fas fa-phone-alt"></i>
+            <h4>Phone No: </h4>
+          </div>
+          <p>09092049023</p>
+        </div>
+        <div class="email  d-flex align-items-center justify-content-center">
+         <div class="email_icon d-flex align-items-center">
+          <i class="fas fa-envelope"></i>
+           <h4>Email:</h4>
+         </div>
+         <p>
+               mail@foodleafe.com
+         </p>
+      
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="col-lg-3">
+      <div class="newsletter">
+        <h3>Newsletter</h3>
+        <p>Enter your email below and get informed of our offers,new products time to time!</p>
+        <div class="newlet_inp d-flex flex-column">
+          <input type="email" name="" id="" placeholder="Email" >
+          <a href="">Send</a>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+   
+  </div>
+</div>
+
+
+
+<div class="lowerFooter">
+  <div class="container">
+    <div class="row d-flex justify-content-between align-items-center">
+       <div class="col-lg-6 all_right ">
+      <p>All Right Reserved. &#169; 2021</p>
+    </div>
+
+    <div class="col-lg-6 lower_footer_logo ">
+
+      <a id="name_icon" class="d-flex align-items-center justify-content-end  " href="">
+        <img src="./img/icon-2-03-70x70-1.png" alt="">
+        <h3>Foodleafe</h3>
+        
+      </a>
+    </div>
+    </div>
+   
+  </div>
+</div>
+
+
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="checkOut.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+
+
+</body>
+
+</html>

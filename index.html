@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- fab icon  -->
+<link rel="icon" href="./img/icon-2-03-70x70-1.png" type="image/gif" sizes="16x16">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- style linking  -->
+  <link rel="stylesheet" href="ecom.css">
+  <title>Ecommerce Website-Homepage</title>
+
+
+</head>
+
+<body>
+
+
+  <div class="container-fluid top_heading py-3">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-9">
+          <div class="special_gift">
+            <span id="gift_generator_btn">Click here</span> to get registerd for special gift
+          </div>
+          <!-- gift form  -->
+          <div class="gift_form_wrapper">
+            <div class="gift_form_container">
+              <div class="gift_form">
+                <div class="cross_gift">
+                  <i class="fas fa-times-circle"></i>
+                </div>
+                <h4>Grab your gift</h4>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <div class="submit">
+                  <a id="action_after_submit" href="#">Submit</a>
+                  <!-- submit result  -->
+                  <div class="sumbit_result_wrapper">
+                    <div class="summit_res">
+                      <div class="cross_result">
+                        <i class="fas fa-times-circle"></i>
+                      </div>
+
+                      <p>Thanks for your registraton. Please check your email for the gift link. Thanks</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col-3 d-flex justify-content-end ">
+          <div class="special_cross">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid bg-dark p-5 header_part">
+    <div class="container ">
+
+
+
+      <div class="row d-flex align-items-center justify-content-between ">
+        <!-- logo  -->
+        <div class="col-2 logo_section">
+
+          <a id="logo" href="http://127.0.0.1:5500/index.html">
+            <img src="./img/icon-2-03-70x70-1.png" alt="">
+          </a>
+
+        </div>
+        <!-- nav menu  -->
+<div class="col-md-2 col-3 hide_thi_btn">
+  <a href="#form_for_sign_and_reg" class="hiddenSign_in">
+    <button class="sign_btn">Sign in</button>
+
+  </a>
+
+  <!-- <div class="Cart">
+    <i class="fas fa-cart-plus"></i>
+  </div> -->
+
+</div>
+
+        <div class="col-10 nav_menu_wrapper">
+          <div class="navMenu_cotainer d-flex  ">
+
+            <div class="d-flex  justify-content-between align-items-center  nav_menu">
+              <li><a  href="http://127.0.0.1:5500/index.html" target="_blank"  >Home</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">Trending</a></li>
+              <li><a href="">Organic</a></li>
+              <li><a href="">Best Seller</a></li>
+            </div>
+
+            <div class="sign_in_and_cart_button  d-flex justify-content-between align-items-center ms-auto">
+              <div class="sign_in">
+                <button class="sign_btn">Sign in</button>
+                <div class="bg_black_layer">
+
+                </div>
+
+              </div>
+
+              <div class="Cart">
+                <i class="fas fa-cart-plus"></i>
+              </div>
+              <!-- background layer  -->
+              <div id="layer_div_for_input_box">
+              </div>
+              <!-- search icon  -->
+              <div class="search_product">
+                <i class="fas fa-search"></i>
+              </div>
+              <!-- input box  -->
+              <div class="input_box_for_searchingProduct">
+                <input type="text" placeholder="Search for your product">
+                <!-- cross button  -->
+                <div class="crossButton">
+                  <i class="fas fa-times  "></i>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+          </div>
+
+          <!-- hamburger menu  -->
+          <div class="hamburger_menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+
+        <!-- sign in and cart button  -->
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- home section  -->
+
+
+
+  <div class="home_wrapper ">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6 col-sm-12 d-flex flex-column  heading_hero">
+          <h1>WE CARE ABOUT YOUR HEALTH</h1>
+          <q class="mt-3 "><i>Fresh Food , Fresh Day</i></q>
+          <div class="btn btn-outline mt-3">
+            <a href="">Start Shopping</a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-sm-12 d-flex align-items-center justify-content-center forms">
+          <div id="form_for_sign_and_reg">
+
+
+
+
+ <div class="form_container d-flex flex-column">
+            <div class="cross_form">
+              <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="form_labels d-flex justify-content-between  ">
+              <div class="login">
+                <span>Login</span>
+              </div>
+
+              <div class="register">
+                <span>Register</span>
+              </div>
+            </div>
+            <div class="log_and_reg_form d-flex justify-content-center">
+              <div class="login_form">
+                <input type="text" placeholder="name">
+                <input type="text" placeholder="password">
+                <div class="remember_box">
+                  <input type="checkbox">
+                  <p class="ms-4">Remember me</p>
+                </div>
+                <a href="">Sign In</a>
+              </div>
+
+              <div class="reg_form">
+                <input type="text" placeholder="name">
+                <input type="password" placeholder="password">
+                <input type="password" placeholder="re-enter password">
+
+                <a href="">Regsiter</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- product section  -->
+
+
+
+
+  <div class="product_wrapper section_gap_top">
+    <div class="container product_section">
+
+
+      <div class="row d-flex flex-column align-items-center">
+        <div class="col-md-12 heading">
+          <h2>Feature Products</h2>
+        </div>
+      </div>
+
+      <div class="container product_images">
+        <div class="row d-flex justify-content-between align-items-center">
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 margin_btm">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between margin_btm">
+              <img src="./img/beans.png" alt="">
+              <h3>Bean</h3>
+              <p>$12</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between margin_btm">
+              <img src="./img/120_copy-removebg-preview.png" alt="">
+              <h3>Milk</h3>
+              <p>$53</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between margin_btm">
+              <img src="./img/refill.png" alt="">
+              <h3>Refill</h3>
+              <p>$22</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between margin_btm">
+              <img class="" src="./img/energy.png" alt="">
+              <h3>Energy</h3>
+              <p>$34</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between ">
+              <img src="./img/cas-300x300.jpg" alt="">
+              <h3>Nuts</h3>
+              <p>$32</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between">
+              <img src="./img/oat-300x300.jpg" alt="">
+              <h3>Ots Chockobar</h3>
+              <p>$25</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between">
+              <img src="./img/parata-final-300x300.jpg" alt="">
+              <h3>Parata</h3>
+              <p>$10</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between">
+              <img class="" src="./img/Mustard-Oil.jpg" alt="">
+              <h3>Oil</h3>
+              <p>$14</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- new products  -->
+
+  <div class="new_product_wrapper section_gap_top">
+    <div class="container product_section">
+
+
+      <div class="row d-flex flex-column align-items-center">
+        <div class="col-md-12 heading heading_new_product">
+          <h2>New Products</h2>
+        </div>
+      </div>
+
+      <div class="container product_images">
+        <div class="row d-flex justify-content-between align-items-center">
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between margin_btm">
+
+              <div class="pro_img">
+                <img src="./img/Ashwagandha-powder_be93dc148c51e6ec38b36e4e32617469.jpg" alt="">
+                <div class="new">
+                  New
+                </div>
+              </div>
+
+              <h3>Powder</h3>
+              <p>$15</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between margin_btm">
+
+
+              <div class="pro_img">
+                <img src="./img/Hand-Made-Puffed-Rice-From-Barishal_460ae53a99bb70bb00d22465e4ab3fa2.jpg" alt="">
+                <div class="new">
+                  New
+                </div>
+              </div>
+
+              <h3>Puffed Rice</h3>
+              <p>$13</p>
+              <a href="http://127.0.0.1:5500/proPage.html"target="_blank" >Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between margin_btm">
+
+              <div class="pro_img">
+                <img src="./img/katari-Najir-Rice.jpg" alt="">
+                <div class="new">
+                  New
+                </div>
+              </div>
+
+              <h3>Najir Rice</h3>
+              <p>$20</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between margin_btm">
+
+              <div class="pro_img">
+                <img class="" src="./img/Brown-Atta.jpg" alt="">
+                <div class="new">
+                  New
+                </div>
+
+              </div>
+
+              <h3>Brown Ata</h3>
+              <p>$34</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between ">
+
+
+              <div class="pro_img">
+
+                <img src="./img/Amon-Rice-300x300.png" alt="">
+                <div class="new">
+                  New
+                </div>
+              </div>
+
+              <h3>Rice</h3>
+              <p>$15</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between">
+
+
+              <div class="pro_img">
+                <img src="./img/apple-cider-vinegar-300x300.jpg" alt="">
+                <div class="new sold_Out">
+                  Sold
+                </div>
+
+              </div>
+
+              <h3>Vinegar</h3>
+              <p>$34</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between">
+
+
+              <div class="pro_img">
+                <img src="./img/Untitled-1-300x300.png" alt="">
+                <div class="new">
+                  New
+                </div>
+
+              </div>
+
+              <h3>Honey</h3>
+              <p>$30</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-3 col-sm-6 mb-sm-5 ">
+            <div class="porduct_box d-flex flex-column align-items-center justify-content-between">
+
+
+              <div class="pro_img">
+                <img class="" src="./img/olive-1-300x300.jpg" alt="">
+                <div class="new sold_Out">
+                  Sold
+                </div>
+              </div>
+
+              <h3>Olive</h3>
+              <p>$27</p>
+              <a href="">Add to cart</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <!-- our partners  -->
+
+
+
+  <section class="brand-container">
+    <div class="text-center">
+      <h2 class="">PRODUCT CATEGORIES</h2>
+    </div>
+    <div class="swiper-container brand-slider  catagory_img">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/dairy-removebg-preview.png" alt="">
+          <h3>Dairy</h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/driedfish-removebg-preview.png" alt="">
+          <h3>Dried Fish</h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/grocery__1_-removebg-preview.png" alt="">
+          <h3>Grocery</h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/grocery__1_-removebg-preview.png" alt="">
+          <h3>Fruits</h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/honey-removebg-preview.png" alt="">
+          <h3>Honey</h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/healthy-removebg-preview.png" alt="">
+          <h3>Healthy</h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/meat-removebg-preview.png" alt="">
+          <h3>Meat</h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/pickles-removebg-preview.png" alt="">
+          <h3>Pickles</h3>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+  <div class="container slider_product">
+    <div class="text-center heading">
+      <h2 class="font-bold">Daily Product</h2>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="porduct_box swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/Red-Brown-Sugar.jpg" alt="">
+            <h3>Red Suger</h3>
+            <p>$14</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/cfd790de-b693-4440-84dd-1c72b704c367-1.jpg" alt="">
+            <h3>Suzi</h3>
+            <p>$25</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/Organic-Icha-Loila-Dry-Fish.jpg" alt="">
+            <h3>Dry Fish</h3>
+            <p>$24</p>
+            <a href="">Add to cart</a>
+          </div>
+
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/products-pomegrenate-20local-500x500-1-300x300.jpg" alt="">
+            <h3>Pomegranate</h3>
+            <p>$30</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/WhatsApp-Image-2021-04-23-at-4.28.39-PM-300x300.jpeg" alt="">
+            <h3>Watermelon
+            </h3>
+            <p>$10</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/anaros-300x300.jpg" alt="">
+            <h3>Pineapple</h3>
+            <p>$15</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/yeast-300x300.jpg" alt="">
+            <h3>Yeast</h3>
+            <p>$23</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/Amon-Rice-300x300.png" alt="">
+            <h3>Amon Rice</h3>
+            <p>$31</p>
+            <a href="">Add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="porduct_box  swiper_product d-flex flex-column align-items-center justify-content-between">
+            <img class="" src="./img/Untitled-1-300x300 (1).png" alt="">
+            <h3>Raisins</h3>
+            <p>$45</p>
+            <a href="">Add to cart</a>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <!-- What we promise  -->
+
+  <div class="we_promise_for">
+    <div class="container">
+      <div class="text-center promise_text">
+        <h2 class="font-bold">We Promise For</h2>
+      </div>
+
+      <div class="row d-flex  align-items-center justify-content-between promise_img">
+        <div class="col-md-4 promise_col">
+          <img src="./img/Our-promises-1_3585115a6f724de7309a37b0567501c4.jpg" alt="">
+        </div>
+        <div class="col-md-4 promise_col">
+          <img src="./img/our-promises-2_08d55e53c512b23352a8e8252d2d4fa1.jpg" alt="">
+        </div>
+        <div class="col-md-4 promise_col">
+          <img src="./img/ourpromises-3_d4e21c31418fd7721c23ea244f512c11.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="why_choose_us">
+    <div class="container">
+      <div class="text-center promise_text">
+        <h2 class="font-bold">Why Choose Us</h2>
+      </div>
+
+      <div class="choose_box d-lg-flex justify-content-between ">
+        <div class="col_one ">
+
+
+  
+        <div class="col-lg-3">
+          <img src="./img/healdy-1.png" alt="">
+          <h3>Safe Food</h3>
+          <p>We focus on ensuring sound health by delivering adulteration, additives & chemical free pure food at
+            consumers’ doorstep.
+          </p>
+        </div>
+      <div class="col-lg-3">
+          <img src="./img/icon-2-04-70x70-1.png" alt="">
+          <h3>Quickest Delivery</h3>
+  
+       
+         <p>We would love to make our consumers feel like shop next to their door by ensuring quickest delivery service</p> 
+        
+        </div>
+        </div>
+
+
+        <div class="col_two">
+
+
+        <div class="col-lg-3">
+          <img src="./img/honey-1.png" alt="">
+          <h3>
+            Honesty & Integrity</h3>
+          <p>
+            Honesty & Integrity
+            Our aim is to earn halal income for our stakeholders through doing business with integrity & honestly in a fair manner.
+   
+          </p>
+        </div>
+        <div class="col-lg-3 ">
+          <img src="./img/environmantal-1.png" alt="">
+          <h3>
+            Environmental safety</h3>
+          <p>We always work on keeping a healthy environment for our employees. We dump and recycle our wastes in proper manner.
+
+   
+          </p>
+        </div>
+
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+<div class="footer">
+  <div class="container">
+
+    <div class="row d-flex justify-content-between align-items-start text-center">
+
+ <div class="col-lg-3">
+      <div class="logo_and_social d-flex flex-column justify-content-between">
+        <a href="">
+          <img src="./img/icon-2-03-70x70-1.png" alt="">
+        </a>
+        <p>FoodLeafe is an e-commerce platform coupled with a chain of brick-and-mortar stores for safe and pure foods Worldwide.</p>
+        <div class="socialMedia">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram-square"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+        </div> 
+
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="contact d-flex flex-column  justify-content-between">
+        <h3>Contact Us</h3>
+        <div class="office d-flex flex-column align-items-center">
+         <div class="head_office d-flex align-items-center">    
+            <i class="fas fa-location-arrow"></i>
+           <h4  >Head Office:</h4>
+     
+         </div>
+         <div>
+               <p>London, ForPlay Building 23/98e.</p>
+         </div>
+      
+        </div>
+        <div class="phone d-flex align-items-center justify-content-center">
+          <div class="phn_icon  d-flex align-items-center">
+            <i class="fas fa-phone-alt"></i>
+            <h4>Phone No: </h4>
+          </div>
+          <p>09092049023</p>
+        </div>
+        <div class="email  d-flex align-items-center justify-content-center">
+         <div class="email_icon d-flex align-items-center">
+          <i class="fas fa-envelope"></i>
+           <h4>Email:</h4>
+         </div>
+         <p>
+               mail@foodleafe.com
+         </p>
+      
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="col-lg-3">
+      <div class="newsletter">
+        <h3>Newsletter</h3>
+        <p>Enter your email below and get informed of our offers,new products time to time!</p>
+        <div class="newlet_inp d-flex flex-column">
+          <input type="email" name="" id="" placeholder="Email" >
+          <a href="">Send</a>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+   
+  </div>
+</div>
+
+
+<div class="lowerFooter">
+  <div class="container">
+    <div class="row d-flex justify-content-between align-items-center">
+       <div class="col-lg-6 all_right ">
+      <p>All Right Reserved. &#169; 2021</p>
+    </div>
+
+    <div class="col-lg-6 lower_footer_logo ">
+
+      <a id="name_icon" class="d-flex align-items-center justify-content-end  " href="">
+        <img src="./img/icon-2-03-70x70-1.png" alt="">
+        <h3>Foodleafe</h3>
+        
+      </a>
+    </div>
+    </div>
+   
+  </div>
+</div>
+
+
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="ecom.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+
+
+</body>
+
+</html>
